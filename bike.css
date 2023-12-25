@@ -1,0 +1,175 @@
+body {
+  background-color: #8fb8ca;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0 !important;
+}
+ul li {
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-section-leftside img {
+  width: 500px;
+  margin-left: 10px;
+}
+.main-section-leftside button {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.main-section-leftside button {
+  background-color: #000;
+  padding: 10px 30px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+}
+.first-section {
+  margin-right: 20px;
+}
+.first-section h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.first-section p {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.first-section button {
+  border: 0;
+  outline: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+}
+.first-section-img {
+  text-align: center;
+}
+.first-section-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.first-section-container img {
+  width: 400px;
+}
+.bike-parts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.bike-parts p {
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.bike-parts img {
+  margin: 5px;
+}
+.section-three {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-three h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.section-three p {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.section-three button {
+  border: 0;
+  outline: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.section-three-img {
+  text-align: start;
+}
+.section-three-img img {
+  width: 350px !important;
+  height: 400px !important;
+}
+.our-products-title {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.our-products-style div img {
+  width: 200px;
+  height: 200px;
+}
+.our-products-style div {
+  margin: 5px;
+}
+.our-products-style div p {
+  margin: 5px 0;
+  font-weight: bold;
+  text-align: center;
+}
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: 0;
+  outline: 0;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: All 0.5s ease;
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+}
+.active {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.hide {
+  transform: translateX(150%);
+  -webkit-transform: translateX(150%);
+  -moz-transform: translateX(150%);
+  -ms-transform: translateX(150%);
+  -o-transform: translateX(150%);
+}
